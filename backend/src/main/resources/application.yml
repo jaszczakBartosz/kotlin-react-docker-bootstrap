@@ -1,0 +1,11 @@
+jwt:
+  secret: N6we1meENcAnupnwr00zIcM3Tfhacr49M8T6EpEOWVc= # needs to be replaced with a secure random string from environment variable
+  expiration: 86400000
+
+spring:
+  application:
+    name: demo
+  docker:
+    compose:
+      file: backend/compose.yaml
+      lifecycle-management: start-only

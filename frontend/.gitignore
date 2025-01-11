@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# IDE
+.idea
+*.iml
+vcs.xml
+*.ipr
