@@ -6,7 +6,7 @@ services:
       - "8080:8080"  # Backend API
       - "80:80"      # Frontend
     environment:
-      - SPRING_PROFILES_ACTIVE=prod
+      #      - SPRING_PROFILES_ACTIVE=prod
       - SPRING_REDIS_HOST=redis
       - SPRING_REDIS_PORT=6379
     depends_on:
